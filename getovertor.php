@@ -17,8 +17,6 @@ Github: https://github.com/morihofi/getovertor/
 
 function GetOverTor($url){
 
-//$url = "http://zqktlwi4fecvo6ri.onion/wiki/index.php/Main_Page";
-
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);

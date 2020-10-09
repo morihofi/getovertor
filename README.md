@@ -10,14 +10,14 @@ PHP function to get a string over the Tor network
 Create a PHP-file and include the *getovertor.php* file like this:
 
     <?php
-    require_once("getovertor.php");
+    require_once("getovertor.php"); //Imports getovertor function
 
 	  ...
 
 To receive a string, you can use this:
 
     <?php
-    require_once("getovertor.php");
+    require_once("getovertor.php"); //Imports getovertor function
     
     $recievedfromtor = getovertor("xyz.onion"); //Gets the source-code of xyz.onion.
     //You can also get the source-code from github.com like this:
